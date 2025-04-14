@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artikel</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="artikel.js" defer></script>
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 id="artikel-titel"></h1>
+     <p id="artikel-datum" class="text-muted"></p>
+       <div class="mb-3">
+        <button id="like-btn" class="btn btn-success me-2">👍 <span id="like-count">0</span></button>
+        <button id="dislike-btn" class="btn btn-danger">👎 <span id="dislike-count">0</span></button>
+       </div>
+     <p id="artikel-innehall" class="mt-4"></p>
+    <hr>
+
+<h4>Kommentarer</h4>
+
+<ul id="kommentar-lista" class="list-group mb-3"></ul>
+
+<form id="kommentar-form">
+  <div class="mb-3">
+    <label for="kommentar-input" class="form-label">Skriv en kommentar</label>
+    <textarea class="form-control" id="kommentar-input" rows="2" required></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Skicka kommentar</button>
+</form>
+
+  </div>
+</body>
+</html>
