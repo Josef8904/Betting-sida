@@ -125,7 +125,7 @@ body {
 }
 
 .odd-item:hover {
-  background-color: #e6e6e6; 
+  background-color: #b69595; 
   transform: scale(1.01); 
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
