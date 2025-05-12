@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function showToast(message, type = 'info') {
       const toast = document.createElement('div');
       toast.textContent = message;
-      toast.style.backgroundColor = type === 'success' ? '#198754' : '#dc3545'; // grön eller röd
+      toast.style.backgroundColor = type === 'success' ? '#198754' : '#dc3545'; 
       toast.style.color = 'white';
       toast.style.padding = '10px 15px';
       toast.style.marginTop = '10px';
